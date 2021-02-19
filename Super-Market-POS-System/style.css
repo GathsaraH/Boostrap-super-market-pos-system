@@ -1,10 +1,17 @@
-#nav-color {
-  background-color: red;
-}
-.container-fluid {
-  background-color: red;
-}
 
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    /* background-color: #d6c9c9; */
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 .first-image {
   position: absolute;
   background-color: black;
