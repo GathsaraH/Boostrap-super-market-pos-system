@@ -3,45 +3,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assests/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css" />
     <title>Login Page</title>
   </head>
-  <body>
-    <section class="main-section">
-      <div class="container-fluid">
-        <div class="row" >
-          <div class="col" id="main-image">
-            <!-- <img
-              class="img-new"
-              src="assests/img/602ede9bb1d9a.jpg"
-              alt="image"
-              class="img-fluid"
-            /> -->
+  <body class="body">
+    <section class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <section class="pass">
+              <h1 class="well-come">WELL COME !</h1>
+              <form>
+                <div class="mb-3" id="gmail">
+                  <label
+                    for="exampleInputEmail1"
+                    class="form-label"
+                    id="address"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+                <div class="mb-3" id="pass-code">
+                  <label
+                    for="exampleInputPassword1"
+                    class="form-label"
+                    id="pass-z"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    id="check-box"
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label
+                    class="form-check-label"
+                    for="exampleCheck1"
+                    id="checkme"
+                    >Check me out</label
+                  >
+                </div>
+                <button id="submit" type="submit" class="btn btn-primary">
+                  Submit
+                </button>
+              </form>
+            </section>
           </div>
-
-          <div class="col" id="main-row" class="col-lg">
-            <div class="form-floating mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="floatingInput"
-                placeholder="name@example.com"
-              />
-              <label for="floatingInput">Email address</label>
-            </div>
-            <div class="form-floating">
-              <input
-                type="password"
-                class="form-control"
-                id="floatingPassword"
-                placeholder="Password"
-              />
-              <label for="floatingPassword">Password</label>
-            </div>
+          <div class="col-sm">
+            <img class="main-image" src="assests/img/new.jpg" alt="" />
           </div>
         </div>
-        <button type="button" class="btn btn-light" id="btn-s">Success</button>
       </div>
     </section>
 

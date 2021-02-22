@@ -1,43 +1,78 @@
-body {
-  background-color: #883DA4;
-}
-.img-new {
-  width: 521px;
-  height: 488px;
-  border-radius: 20px;
-  z-index: 5;
-  display: flex;
-  position: relative;
-  left: 76px;
-  bottom: -148px;
-}
-.main-section {
-  width: 77%;
-  height: 79%;
-  border-radius: 20px;
-  background-color: rgb(46, 204, 113);
-  inset: 0px;
-  margin: auto;
-  position: absolute;
-}
-#main-row {
-  position: relative;
-  top: 260px;
-  left: -65px;
-}
-#btn-secc {
-  position: relative;
-  left: 940px;
-  height: 51px;
-  width: 200px;
+.body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #6820c5;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: #cc212100;
 }
 
-.btn-light:hover {
-  color: #ffffff;
-  background-color: #090a0a;
-  border-color: #f9fafb;
+.main-image {
+  width: 501px;
+  height: 534px;
+  left: -6px;
+  top: 93px;
+  position: relative;
+  bottom: 0;
 }
-#main-image{
- background-color: #8A3CA9;
- 
+
+.pass {
+  width: 473px;
+  height: 533px;
+  background-color: white;
+  position: relative;
+  top: 93px;
+  left: 181px;
+}
+.well-come {
+  left: 99px;
+  position: relative;
+  top: 19px;
+}
+#gmail {
+  width: 380px;
+  position: relative;
+  left: 29px;
+  top: 63px;
+}
+#pass-code {
+  width: 380px;
+  position: relative;
+  left: 25px;
+  top: 77px;
+}
+
+#address {
+  font-size: 22px;
+  position: relative;
+  font-style: unset;
+  font-family: cursive;
+}
+#pass-z {
+  font-style: unset;
+  font-family: cursive;
+  font-size: 22px;
+  position: relative;
+}
+#checkme {
+  position: relative;
+}
+#submit {
+  position: relative;
+  top: 94px;
+  left: 157px;
+  width: 122px;
+}
+#check-box {
+  position: relative;
+  left: 153px;
+  top: 100px;
+}
+#checkme {
+  position: relative;
+  left: 152px;
+  top: 100px;
 }
